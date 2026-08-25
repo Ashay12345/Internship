@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    background-image: url(Goku.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+nav{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    scroll-behavior: smooth;
+}
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+nav a:hover{
+    background-color:rgb(255,183,197);
+    color: white;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    /* z-index:999; */
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; 
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+.menu-button{
+    display: none;
+}
+h1{
+    color:rgb(255,183,197);
+}
+p{
+    color: white;
+}
+.main-content{
+    background-image: url(Black-Circle.jpg);
+}
+.container{
+    background-color:transparent;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+.item{
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    margin: 4px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.first-paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-1{
+    background-image: url("Black-Circle.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.item-2{
+    height: 100vh;
+    width: 100vw;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action-figure-image{
+    height: 100vh;
+}
+.container-3{
+    background-image: url("Black-Circle.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-3{
+    width: fit-content;
+}
+p{
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.minatoStatue{
+    height: 100vh;
+    width: 100vh;
+}
+.container-5{
+    background-image: url("Black-Circle.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-5{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-5{
+    width: 50vw;
+    height: 100vh;
+}
+p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+.container-4{
+    background-image: url("Black-Circle.jpg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-4{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    color: white;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.container-6{
+    background-image: url('Black-Circle.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: white;
+}
+@media(max-width:800px){
+    .hideOnMobile{
+        display:none;
+    }
+    .menu-button{
+        display: block;
+    }
+    @media (max-width:400px){
+        .sidebar{
+            width:100%;
+        }
+    }
+}
