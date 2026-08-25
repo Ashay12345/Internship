@@ -5,7 +5,9 @@ Level:Basic
 
 1. Task 1:
 Objectives:
-Utilize semantic HTML tags for betteraccissibility and SEO.
+Utilize semantic HTML tags for better accissibility and SEO.
 Implement CSS Flexbox or GRID for layout Design.
 Ensure mobile-responsive using media queries.
-Add smooth scrolling and basic animations for a modern look.  
+Add smooth scrolling and basic animations for a modern look.
+
+  1. The Semantic HTML tag has been 
