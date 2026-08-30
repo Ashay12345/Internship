@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Form Validation</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <main>
+        <div class="glass-container">
+            <form name="myForm" onsubmit="return validateForm()" class="formdesign">
+            <div class="formdesign" id="name">
+            <input type="text" name="fname" placeholder="username">
+            <b><span class="formerror"></span></b>
+            </div>
+            <div class="formdesign" id="email">
+            <input type="email" name="femail" placeholder="email">
+            <b><span class="formerror"></span></b>
+            </div>
+            <div class="formdesign" id="phone">
+            <input type="phone" name="fphone" placeholder="Phone Number">
+            <b><span class="formerror"></span></b>
+            </div>
+            <div class="formdesign" id="pass">
+            <input type="password" name="fpass" placeholder="Password">
+            <b><span class="formerror"></span></b>
+            </div>
+            <div class="formdesign" id="cpass">
+            <input type="password" name="fcpass" placeholder="Confirm Password">
+            <b><span class="formerror"></span></b>
+            </div>
+            <div class="formdesign">
+                <input type="submit" class="but" value="Submit">
+            </div>
+            </form>
+        </div>
+    </main>
+    </form>
+    </div>
+    <script src="login.js">
+        // function seterror(id, error){
+        //     let element = document.getElementById(id);
+        //     element.getElementsByClassName('formerror')[0].innerHTML = error;
+        // }
+        // function validateForm(){
+        //     let returnval = true;
+        //     // 9375803533
+        //     // perform validation and if the validation fails, set the value of returnval to false
+        //     let name = document.forms['myForm']['fname'].value;
+        //     if(name.length<5){
+        //         seterror('name','*Length of the name is too short!');
+        //         returnval = false;
+        //     }
+        //     if(name.length==''){
+        //         seterror('name','*Username cannot be left blank!');
+        //         returnval = false;
+        //     }
+        //     let email = document.forms['myForm']['femail'].value;
+        //     if(email.length>50){
+        //         seterror('email','*Email length is too long!');
+        //         returnval = false;
+        //     }
+        //     let phone = document.forms['myForm']['fphone'].value;
+        //     if(phone.length!=10){
+        //         seterror('phone','*Phone number should be of 10 digits!');
+        //         returnval = false;
+        //     }
+        //     let password = document.forms['myForm']['fpass'].value;
+        //     if(password.length<=8){
+        //         seterror('pass','*Password length should be 8 characters!')
+        //         returnval = false;
+        //     }
+        //     let cpassword = document.forms['myForm']['fcpass'].value;
+        //     if(cpassword != password){
+        //         seterror('cpass','*Password and Confirm Password should match!');
+        //         returnval = false;
+        //     }
+        //     return returnval;
+        // }
+    </script>
+</body>
+</html>
